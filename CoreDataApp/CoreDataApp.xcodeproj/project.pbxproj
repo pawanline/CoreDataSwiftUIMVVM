@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D487D9FE2688B9A400B7E277 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487D9FD2688B9A400B7E277 /* MovieDetailView.swift */; };
 		D4CF1EED267F8426006264EA /* CoreDataAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF1EEC267F8426006264EA /* CoreDataAppApp.swift */; };
 		D4CF1EEF267F8426006264EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF1EEE267F8426006264EA /* ContentView.swift */; };
 		D4CF1EF1267F8427006264EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CF1EF0267F8427006264EA /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D487D9FD2688B9A400B7E277 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		D4CF1EE9267F8426006264EA /* CoreDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CF1EEC267F8426006264EA /* CoreDataAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAppApp.swift; sourceTree = "<group>"; };
 		D4CF1EEE267F8426006264EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D4CF1EF5267F8427006264EA /* Info.plist */,
 				D4CF1EF2267F8427006264EA /* Preview Content */,
 				D4CF1F17267F8492006264EA /* Model.xcdatamodeld */,
+				D487D9FD2688B9A400B7E277 /* MovieDetailView.swift */,
 			);
 			path = CoreDataApp;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D487D9FE2688B9A400B7E277 /* MovieDetailView.swift in Sources */,
 				D4CF1F1C267F86A8006264EA /* CoreDataManger.swift in Sources */,
 				D4CF1EEF267F8426006264EA /* ContentView.swift in Sources */,
 				D4CF1EED267F8426006264EA /* CoreDataAppApp.swift in Sources */,

@@ -33,6 +33,31 @@ class CoreDataManager {
         }
     }
     
+    func getAllMovie() -> [Movie] {
+        let fetchRequest: NSFetchRequest<Movie> = Movie.fetchRequest()
+        do {
+           return try persistentContainer.viewContext.fetch(fetchRequest)
+        } catch {
+            return []
+        }
+    }
     
+    func updateMovie() {
+        do {
+             try persistentContainer.viewContext.save()
+        } catch {
+            persistentContainer.viewContext.rollback()
+            print("Some error occured: \(error.localizedDescription)")
+        }
+    }
+    
+    func deleteMovie(movie: Movie) {
+        persistentContainer.viewContext.delete(movie)
+        do {
+            try persistentContainer.viewContext.save()
+        } catch {
+            persistentContainer.viewContext.rollback()
+        }
+    }
 }
 
